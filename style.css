@@ -1,0 +1,249 @@
+body{
+  
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(38, 38, 247);
+    background-color:#e5e5e5;
+}
+
+
+
+h1{
+    text-align: left;
+    font-weight:10;
+} 
+
+  
+h2{
+    text-align: center;
+    font-weight:10;
+   
+}
+
+.logo{
+    margin: 4px;
+    width: 6%;        
+}
+.logo2{
+    margin: 4px;
+    width: 10%;        
+}
+.izq{
+    float: left;
+    background-color:#f1f1f1;
+    width:50%;
+    height:480px;
+    border-radius: 10px;
+}
+.der{
+   float: right;
+    background-color: rgb(255, 255, 255);
+    width: 360px;
+    height:480px;
+    margin-right: 18px;
+    border-radius: 15px;
+    box-shadow: 15px 5px 50px black;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+button{
+    display: inline;    
+    padding: 6px;
+    width: 120px;
+    border-radius: 20px;
+    border-style:solid;
+    border-width: 1px;   
+    margin-left: 20%;
+    
+}
+.enc{
+    background-color: rgb(30, 30, 238);
+    margin-top: 10%;
+    font-style:bold;
+    color: white;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.enc:hover{
+    background-color: rgb(0, 195, 255);
+    transform: scale(1.1);
+    transition: 500ms transform;
+}
+
+.desenc{
+    background-color: rgb(190, 187, 187);
+    cursor: pointer;
+
+}
+
+.desenc:hover{
+    background-color: rgb(95, 95, 95);
+    transform: scale(1.1);
+    transition: 700ms transform;
+}
+
+.textarea{
+    background-color:#f1f1f1;
+    margin-left: 30%;
+    width: 40%;  
+    height: 35%;  
+    resize: none;
+    border: none;
+}
+.parrafo2{
+   background-color: rgb(255, 255, 255);
+   text-align: center;
+   
+}
+
+#botonCopiar{
+    display: none;
+    margin-top: 53%;
+    margin-left: 44%;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+
+
+}
+main{    
+    height: 500px;
+    box-sizing: border-box;
+}
+
+.texto-der{
+    text-align: center;
+    font-weight: 5;
+}
+
+.imagen{
+    text-align: center;   
+}
+
+.imagen img{    
+    width: 40%;
+}
+
+.ocultar{
+    display: none;
+}
+
+
+
+footer{
+    padding: 20px;
+    width: 105%;
+    height: 250px;
+    background-color: rgb(195, 230, 247);
+    text-align: center;
+}
+
+
+
+footer img{
+    margin-top: 10px;
+    width: 10%;
+}
+
+@media screen and (max-width:900px){
+
+    body{
+        background-color: #e5e5e5;
+    }
+
+    .izq{
+        width: 50%;
+    }
+
+    button{
+        display: block;
+        margin-left: 30%;          
+        padding: 6px;
+        width: 120px;
+        border-radius: 20px;
+        border-style:solid;
+        border-width: 1px; 
+        cursor: pointer;      
+        
+    }
+
+    .enc{
+        margin-bottom: 6%;
+        margin-top: 6%;
+    }
+
+    #botonCopiar{
+        margin-left: 25%;
+    }
+
+   
+}
+
+@media screen and (max-width:550px){
+
+    body{
+       
+       font-size: 12px;
+    }
+
+    .izq{
+        width: 50%;
+    }
+
+    button{
+        display: block;
+        margin-left: 25%;          
+        padding: 6px;
+        width: 120px;
+        border-radius: 20px;
+        border-style:solid;
+        border-width: 1px; 
+        cursor: pointer;      
+        
+    }
+
+    .enc{
+        margin-bottom: 6%;
+        margin-top: 6%;
+    }
+
+    #botonCopiar{
+        margin-left: 18%;
+    }
+
+   
+}
+
+@media screen and (max-width:450px){
+
+    body{
+        background-color: #e5e5e5;
+       font-size: 12px;
+    }
+
+    .izq{
+        width: 50%;
+    }
+
+    button{
+        display: block;
+        margin-left: 24%;          
+        padding: 6px;
+        width: 100px;
+        border-radius: 20px;
+        border-style:solid;
+        border-width: 1px; 
+        cursor: pointer;      
+        
+    }
+
+    .enc{
+        margin-bottom: 6%;
+        margin-top: 6%;
+    }
+
+    #botonCopiar{
+        margin-left: 12%;
+    }
+
+   
+}
